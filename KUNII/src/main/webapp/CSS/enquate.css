@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+	line-height: 1.8;
+	line-height: 2;
+	font-size: 18px;
+	background-color: #fff;
+	
+}
+h1{
+	font-size: 300%;
+	font-weight: normal;
+}
+h2,
+h3,
+h4,
+h5 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content:"";
+}
+
+input,
+textarea,
+select,
+button{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-size: 100%;
+	
+}
+
+.c-form-textarea {
+	display: block;
+	width: 50%;
+	height: 5rem;
+	padding: 4px 16px;
+	border-radius: 4px;
+	border:  none;
+	box-shadow: 0 0 0 1px #ccc inset;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	resize: vertical;
+}
+
+.c-form-textarea:focus {
+	outline: 0;
+	box-shadow: 0 0 0 2px rgb(33,150,243) inset;
+}
+.end{
+	font-size: 20px;
+}
